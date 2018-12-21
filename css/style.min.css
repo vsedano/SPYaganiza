@@ -1,0 +1,44 @@
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+    height: 100%
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #1C2331
+    }
+    #sp_logo {
+        width: 100px
+    }
+    #oaxaca_logo {
+        width: 170px
+    }
+}
+
+section {
+    padding-top: 10%
+}
+
+h1 {
+    color: #635f5f;
+    font-weight: bold;
+}
+
+#redes_sociales {
+    vertical-align: middle;
+    display: inline-block;
+}
